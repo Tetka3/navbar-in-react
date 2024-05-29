@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+.left{
+    flex: 2;
+    margin-left: 20px;
+}
+.right{
+    flex: 3;
+    margin-right: 20px; 
+    justify-content: flex-end;
+      
+}
+.right ul {
+    list-style: none;
+   
+}
+.right ul li{
+    display: inline;
+    justify-content: flex-end;
+       
+}
+.right ul li a{
+    
+    
+}
